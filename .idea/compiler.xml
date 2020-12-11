@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Java2DRenderers" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="9" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Java2DRenderers" options="--add-exports java.desktop/java.awt.peer=ALL-UNNAMED --add-exports java.desktop/sun.java2d=ALL-UNNAMED --add-exports java.desktop/sun.java2d.pipe.hw=ALL-UNNAMED --add-exports java.desktop/sun.java2d.d3d=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>
